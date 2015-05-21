@@ -27,18 +27,28 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
+
 .socicon:empty{
     width: 1em;
 }
 
-.socicon-twitter:before { content: "a"; }
-.socicon-facebook:before { content: "b"; }
-.socicon-google:before { content: "c"; }
-.socicon-github:before { content: "Q"; }
-.socicon-reddit:before { content: "C"; }
-.socicon-mail:before { content: "@"; }
-.socicon-android:before { content: "_"; }
-html { height: 100%; }
+.socicon-twitter:before { content: "a"; 
+}
+.socicon-facebook:before { content: "b"; 
+}
+.socicon-google:before { content: "c";
+ }
+.socicon-github:before { content: "Q";
+ }
+.socicon-reddit:before { content: "C";
+ }
+.socicon-mail:before { content: "@";
+ }
+.socicon-android:before { content: "_";
+ }
+
+html { height: 100%;
+ }
 
 *,
 *:after,
@@ -109,7 +119,7 @@ a:hover {
 
 .js .menu-panel {
 	position: absolute;
-	left: -240px;
+	left: -338px;
 }
 
 .menu-panel h3 {
@@ -304,6 +314,7 @@ h3{
   	color: #000000;
   	font-size: 30px;
 }
+
 
 @media screen and (max-width: 800px){
 	.no-js .menu-panel {

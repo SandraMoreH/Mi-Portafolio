@@ -316,6 +316,8 @@
 				$s_middle.css({ transform: 'rotateY(-180deg)' });
 			}
 
+			
+
 			// overlays
 			if (this.options.shadows && !this.end) {
 
